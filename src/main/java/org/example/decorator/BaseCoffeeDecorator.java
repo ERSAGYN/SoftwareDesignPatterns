@@ -1,10 +1,20 @@
 package org.example.decorator;
 
-public abstract class BaseCoffeeDecorator implements ICoffee {
+public class BaseCoffeeDecorator implements ICoffee {
     ICoffee wrappee;
     String description;
 
     public BaseCoffeeDecorator(ICoffee wrappee) {
         this.wrappee = wrappee;
+    }
+
+    @Override
+    public String getDescription() {
+        return wrappee.getDescription();
+    }
+
+    @Override
+    public double cost() {
+        return wrappee.cost();
     }
 }
