@@ -1,11 +1,9 @@
 package org.example.shopping;
 
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class ShoppingCart {
     PaymentProcessor processor = new PaymentProcessor();
-    Scanner scanner = new Scanner(System.in);
 
     ArrayList<Product> products = new ArrayList<>();
 
@@ -13,6 +11,16 @@ public class ShoppingCart {
         Product p = new Product(name, price, quantity);
         products.add(p);
     }
+
+//    public void addProduct() {
+//        Product p = new Product();
+//        System.out.println("Enter name");
+//        p.setName(scanner.next());
+//        System.out.println("Enter price");
+//        p.setPrice(scanner.nextInt());
+//        System.out.println("Enter quantity");
+//        p.setQuantity(scanner.nextInt());
+//    }
 
     public void removeProduct(String name) {
         products.removeIf(p -> p.getName().equals(name));

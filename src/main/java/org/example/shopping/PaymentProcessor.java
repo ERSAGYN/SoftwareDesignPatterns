@@ -7,7 +7,6 @@ public class PaymentProcessor {
     public void setPaymentStrategy(IPaymentStrategy paymentStrategy) {
         this.paymentStrategy = paymentStrategy;
     }
-
     public void strategyExecute(double amount) {
         paymentStrategy.processPayment(amount);
     }

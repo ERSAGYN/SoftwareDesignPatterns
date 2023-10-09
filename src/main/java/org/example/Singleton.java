@@ -18,6 +18,6 @@ public class Singleton {
     }
 
     public void showMessage() {
-        System.out.println("Hello, I am a Singleton!");
+        System.out.println("Singleton");
     }
 }
