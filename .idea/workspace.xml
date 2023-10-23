@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0830db37-fc16-4814-9669-1085986de7fd" name="Changes" comment="Coffee Assignment">
+    <list default="true" id="0830db37-fc16-4814-9669-1085986de7fd" name="Changes" comment="Changing &quot;Latte Espresso Cappuccino&quot; to &quot;Milk Sugar NameOnCup&quot;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IGameControls.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IKeyboardMouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IPlayStationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IXboxController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/KeyboardMouseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/PlayStationControllerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/XboxControllerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/decorator/BaseCoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/BaseCoffeeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/decorator/CappuccinoCoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/SugarCoffeeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/decorator/EspressoCoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/NameOnCupCoffeeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/decorator/LatteCoffeeDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/MilkCoffeeDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/decorator/MainCoffee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/decorator/MainCoffee.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +52,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.example.adapter" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -85,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696843673046</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changing &quot;Latte Espresso Cappuccino&quot; to &quot;Milk Sugar NameOnCup&quot;">
+      <created>1696849969551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1696849969551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +117,7 @@
     <MESSAGE value="create files" />
     <MESSAGE value="Moving menu's to main" />
     <MESSAGE value="Coffee Assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="Coffee Assignment" />
+    <MESSAGE value="Changing &quot;Latte Espresso Cappuccino&quot; to &quot;Milk Sugar NameOnCup&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing &quot;Latte Espresso Cappuccino&quot; to &quot;Milk Sugar NameOnCup&quot;" />
   </component>
 </project>
