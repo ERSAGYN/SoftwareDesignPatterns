@@ -8,10 +8,7 @@ public class Main {
         XboxControllerAdapter xboxController = new XboxControllerAdapter(keyboardMouseController);
         game.setController(xboxController);
         xboxController.pressButtonB();
-        xboxController.pressButtonY();
-        xboxController.pressButtonB();
-        xboxController.pressButtonB();
-        game.setController(new PlayStationControllerAdapter(keyboardMouseController));
+        xboxController.pressLeftButton();
 
     }
 }

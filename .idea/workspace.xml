@@ -4,17 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0830db37-fc16-4814-9669-1085986de7fd" name="Changes" comment="Changing &quot;Latte Espresso Cappuccino&quot; to &quot;Milk Sugar NameOnCup&quot;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IGameControls.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IKeyboardMouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IPlayStationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/IXboxController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/KeyboardMouseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/PlayStationControllerAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/XboxControllerAdapter.java" afterDir="false" />
+    <list default="true" id="0830db37-fc16-4814-9669-1085986de7fd" name="Changes" comment="Adapter pattern">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/AirBender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/Character.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/CharacterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/CharacterObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/EarthBender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/FireBender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/IEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/observer/WaterBender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/adapter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/adapter/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696849969551</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adapter pattern">
+      <created>1698034244502</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698034244502</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +127,7 @@
     <MESSAGE value="Moving menu's to main" />
     <MESSAGE value="Coffee Assignment" />
     <MESSAGE value="Changing &quot;Latte Espresso Cappuccino&quot; to &quot;Milk Sugar NameOnCup&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changing &quot;Latte Espresso Cappuccino&quot; to &quot;Milk Sugar NameOnCup&quot;" />
+    <MESSAGE value="Adapter pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adapter pattern" />
   </component>
 </project>
